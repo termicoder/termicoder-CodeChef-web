@@ -1,5 +1,6 @@
 # termicoder-codechef-web
-[WIP] codechef plugin for termicoder using web api
+**THIS IS A WORK IN PROGRESS AND NOT READY FOR USE YET**
+codechef plugin for termicoder using web api
 
 
 ## NOTE:
