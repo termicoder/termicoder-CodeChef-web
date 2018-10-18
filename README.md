@@ -1,5 +1,9 @@
 # termicoder-codechef-web
+
 **THIS IS A WORK IN PROGRESS AND NOT READY FOR USE YET**
+
+**The main working ideas can be found in [termicoder/previous_alpha](https://github.com/termicoder/termicoder/tree/previous_alpha/termicoder/judges/codechef) which provided the functionalities for module based implementation of termicoder**
+
 codechef plugin for termicoder using web api
 
 
@@ -13,3 +17,5 @@ The purpose of creating this is that during a prior contest([LTIME64](https://ww
 This is provided externally as we believe that overtime the codechef web interface will also shift to `https://api.codechef.com` and the endpoints should be more stable. On the other case If codechef shifts to some other paradigm and completely does away with frontend access to the api, we can still emulate complete html based browser functionality to keep this working.
 
 In this instead of saving Oauth tokens, we save coookies after a user logs in. This currently does not support saving of password.
+
+Another reason for using this is that the web api supports submissson but https://api.codechef.com doesn't (yet).
